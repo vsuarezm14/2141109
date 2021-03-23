@@ -1,0 +1,259 @@
+.contenedor{
+	display: flex;/*alineación de cajas en horizontal*/
+}
+.elemento{
+	width: 25%;/*ancho de caja proporcional a fila*/
+	color:#fff;/*color de letra*/
+	font-size: 1em;/*tamaño de fuente en unidades de m*/
+	font-family: tahoma;/*fuente*/
+	line-height: 100px;/*aleneación de caja con relación a la vertical*/
+	font-weight: bold;/*negrita*/
+	background-color: #D2FAF8;/*Color de fondo*/
+	text-align: center;/*alenieación de texto*/
+}
+.contenedor2{
+	display: flex;
+	flex-direction: row-reverse;
+}
+.elemento2{
+	width: 25%;/*ancho de caja proporcional a fila*/
+	color:#fff;/*color de letra*/
+	font-size: 1em;/*tamaño de fuente en unidades de m*/
+	font-family: tahoma;/*fuente*/
+	line-height: 100px;/*aleneación de caja con relación a la vertical*/
+	font-weight: bold;/*negrita*/
+	background-color: #67D3CE;/*Color de fondo*/
+	text-align: center;/*alenieación de texto*/
+}
+.contenedor3{
+	display: flex;
+	flex-direction: column;
+}
+.elemento3{
+	width: 25%;/*ancho de caja proporcional a fila*/
+	color:#fff;/*color de letra*/
+	font-size: 1em;/*tamaño de fuente en unidades de m*/
+	font-family: tahoma;/*fuente*/
+	line-height: 100px;/*aleneación de caja con relación a la vertical*/
+	font-weight: bold;/*negrita*/
+	background-color: #4B8F96;/*Color de fondo*/
+	text-align: center;/*alenieación de texto*/
+}
+.contenedor4{
+	display: flex;
+	flex-direction: column-reverse;
+}
+.elemento4{
+	width: 25%;/*ancho de caja proporcional a fila*/
+	color:#fff;/*color de letra*/
+	font-size: 1em;/*tamaño de fuente en unidades de m*/
+	font-family: tahoma;/*fuente*/
+	line-height: 100px;/*aleneación de caja con relación a la vertical*/
+	font-weight: bold;/*negrita*/
+	background-color: #4B8F96;/*Color de fondo*/
+	text-align: center;/*alenieación de texto*/
+}
+.contenedor5{
+	display: flex;
+	flex-wrap: wrap;/*mantiene la proporción de tamaño real de la caja*/
+}
+.elemento5{
+	width: 25%;/*ancho de caja proporcional a fila*/
+	color:#fff;/*color de letra*/
+	font-size: 1em;/*tamaño de fuente en unidades de m*/
+	font-family: tahoma;/*fuente*/
+	line-height: 100px;/*aleneación de caja con relación a la vertical*/
+	font-weight: bold;/*negrita*/
+	background-color: #4B8F96;/*Color de fondo*/
+	text-align: center;/*alenieación de texto*/
+}
+.contenedor6{
+	display: flex;
+	flex-direction: row-reverse;/*mantiene la proporción de tamaño real de la caja*/
+	flex-wrap: wrap-reverse;
+}
+.elemento6{
+	width: 25%;/*ancho de caja proporcional a fila*/
+	color:#fff;/*color de letra*/
+	font-size: 1em;/*tamaño de fuente en unidades de m*/
+	font-family: tahoma;/*fuente*/
+	line-height: 100px;/*aleneación de caja con relación a la vertical*/
+	font-weight: bold;/*negrita*/
+	background-color: #326065;/*Color de fondo*/
+	text-align: center;/*alenieación de texto*/
+}
+.contenedor7{
+	display: flex;/*diseño adaptativo*/
+	flex-wrap: wrap;/*proporción de tamaño de caja*/
+	flex-direction: row;/*disposición de cajas en fila*/
+	justify-content: flex-start;/*alineación de cajas al inicio de pantalla*/
+}
+.elemento7{
+	width: 25%;/*ancho de caja proporcional a fila*/
+	color:#fff;/*color de letra*/
+	font-size: 1em;/*tamaño de fuente en unidades de m*/
+	font-family: tahoma;/*fuente*/
+	line-height: 100px;/*aleneación de caja con relación a la vertical*/
+	font-weight: bold;/*negrita*/
+	background-color: #284B4F;/*Color de fondo*/
+	text-align: center;/*alenieación de texto*/
+}
+.contenedor8{
+	display: flex;/*diseño adaptativo*/
+	flex-wrap: wrap;/*proporción de tamaño de caja*/
+	flex-direction: row;/*disposición de cajas en fila*/
+	justify-content: flex-end;/*alineación de cajas al inicio de pantalla*/
+}
+.elemento8{
+	width: 25%;/*ancho de caja proporcional a fila*/
+	color:#fff;/*color de letra*/
+	font-size: 1em;/*tamaño de fuente en unidades de m*/
+	font-family: tahoma;/*fuente*/
+	line-height: 100px;/*aleneación de caja con relación a la vertical*/
+	font-weight: bold;/*negrita*/
+	background-color: #284B4F;/*Color de fondo*/
+	text-align: center;/*alenieación de texto*/
+}
+.contenedor9{
+	display: flex;/*diseño adaptativo*/
+	flex-wrap: wrap;/*proporción de tamaño de caja*/
+	flex-direction: row;/*disposición de cajas en fila*/
+	justify-content: center;/*alineación de cajas al inicio de pantalla*/
+}
+.elemento9{
+	width: 25%;/*ancho de caja proporcional a fila*/
+	color:#fff;/*color de letra*/
+	font-size: 1em;/*tamaño de fuente en unidades de m*/
+	font-family: tahoma;/*fuente*/
+	line-height: 100px;/*aleneación de caja con relación a la vertical*/
+	font-weight: bold;/*negrita*/
+	background-color: #1C3335;/*Color de fondo*/
+	text-align: center;/*alenieación de texto*/
+}
+.contenedor10{
+	display: flex;/*diseño adaptativo*/
+	flex-wrap: wrap;/*proporción de tamaño de caja*/
+	flex-direction: row;/*disposición de cajas en fila*/
+	justify-content: space-between;/*alineación de cajas al inicio de pantalla*/
+}
+.elemento10{
+	width: 25%;/*ancho de caja proporcional a fila*/
+	color:#fff;/*color de letra*/
+	font-size: 1em;/*tamaño de fuente en unidades de m*/
+	font-family: tahoma;/*fuente*/
+	line-height: 100px;/*aleneación de caja con relación a la vertical*/
+	font-weight: bold;/*negrita*/
+	background-color: #1C3335;/*Color de fondo*/
+	text-align: center;/*alenieación de texto*/
+}
+.contenedor11{
+	display: flex;/*diseño adaptativo*/
+	flex-wrap: wrap;/*proporción de tamaño de caja*/
+	flex-direction: row;/*disposición de cajas en fila*/
+	justify-content: space-around;/*alineación de cajas al inicio de pantalla*/
+}
+.elemento11{
+	width: 25%;/*ancho de caja proporcional a fila*/
+	color:#fff;/*color de letra*/
+	font-size: 1em;/*tamaño de fuente en unidades de m*/
+	font-family: tahoma;/*fuente*/
+	line-height: 100px;/*aleneación de caja con relación a la vertical*/
+	font-weight: bold;/*negrita*/
+	background-color: #5ad;/*Color de fondo*/
+	text-align: center;/*alenieación de texto*/
+}
+.contenedor12{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+.elemento12{
+	width: 100%;/*ancho de caja proporcional a fila*/
+	color:#fff;/*color de letra*/
+	font-size: 2em;/*tamaño de fuente en unidades de m*/
+	font-family: tahoma;/*fuente*/
+	line-height: 100px;/*aleneación de caja con relación a la vertical*/
+	font-weight: bold;/*negrita*/
+	background-color: #000;/*Color de fondo*/
+	text-align: center;/*alenieación de texto*/
+}
+.elemento13{
+	width: 100%;/*ancho de caja proporcional a fila*/
+	color:#fff;/*color de letra*/
+	font-size: 1.5em;/*tamaño de fuente en unidades de m*/
+	font-family: tahoma;/*fuente*/
+	line-height: 80px;/*aleneación de caja con relación a la vertical*/
+	font-weight: bold;/*negrita*/
+	background-color: #aaa;/*Color de fondo*/
+	text-align: center;/*alenieación de texto*/
+}
+.elemento14{
+	width: 50%;/*ancho de caja proporcional a fila*/
+	color:#fff;/*color de letra*/
+	font-size: 1.5em;/*tamaño de fuente en unidades de m*/
+	font-family: tahoma;/*fuente*/
+	line-height: 300px;/*aleneación de caja con relación a la vertical*/
+	font-weight: bold;/*negrita*/
+	background-color: purple;/*Color de fondo*/
+	text-align: center;/*alenieación de texto*/
+}
+.elemento15{
+	width: 50%;/*ancho de caja proporcional a fila*/
+	color:#fff;/*color de letra*/
+	font-size: 1.5em;/*tamaño de fuente en unidades de m*/
+	font-family: tahoma;/*fuente*/
+	line-height: 300px;/*aleneación de caja con relación a la vertical*/
+	font-weight: bold;/*negrita*/
+	background-color: pink;/*Color de fondo*/
+	text-align: center;/*alenieación de texto*/
+}
+.elemento16{
+	width: 33.3%;/*ancho de caja proporcional a fila*/
+	color:#fff;/*color de letra*/
+	font-size: 1.5em;/*tamaño de fuente en unidades de m*/
+	font-family: tahoma;/*fuente*/
+	line-height: 200px;/*aleneación de caja con relación a la vertical*/
+	font-weight: bold;/*negrita*/
+	background-color: lightblue;/*Color de fondo*/
+	text-align: center;/*alenieación de texto*/
+}
+.elemento17{
+	width: 33.3%;/*ancho de caja proporcional a fila*/
+	color:#fff;/*color de letra*/
+	font-size: 1.5em;/*tamaño de fuente en unidades de m*/
+	font-family: tahoma;/*fuente*/
+	line-height: 200px;/*aleneación de caja con relación a la vertical*/
+	font-weight: bold;/*negrita*/
+	background-color: lightgreen;/*Color de fondo*/
+	text-align: center;/*alenieación de texto*/
+}
+.elemento18{
+	width: 33.3%;/*ancho de caja proporcional a fila*/
+	color:#fff;/*color de letra*/
+	font-size: 1.5em;/*tamaño de fuente en unidades de m*/
+	font-family: tahoma;/*fuente*/
+	line-height: 200px;/*aleneación de caja con relación a la vertical*/
+	font-weight: bold;/*negrita*/
+	background-color: lightyellow;/*Color de fondo*/
+	text-align: center;/*alenieación de texto*/
+}
+
+.elemento19{
+	width: 100%;/*ancho de caja proporcional a fila*/
+	color:#fff;/*color de letra*/
+	font-size: 1.5em;/*tamaño de fuente en unidades de m*/
+	font-family: tahoma;/*fuente*/
+	line-height: 100px;/*aleneación de caja con relación a la vertical*/
+	font-weight: bold;/*negrita*/
+	background-color: black;/*Color de fondo*/
+	text-align: center;/*alenieación de texto*/
+}
+@media(max-width: 600px){
+	.contenedor12, .elemento12, .elemento13,
+	.elemento14, .elemento15, .elemento16,
+	.elemento17, .elemento18, .elemento19{
+		display: block;
+		width: 100%;
+	}
+}
